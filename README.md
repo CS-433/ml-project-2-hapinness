@@ -9,7 +9,7 @@ Arthur Lamour: arthur.lamour@epfl.ch
 Justin Manson: justin.manson@epfl.ch
 
 ## Goal
-Discover and implement Physics Informed Neural Networks (PINN) on the Burgers' equation, perform inference and parameter identification.
+Discover and implement **Physics Informed Neural Networks** (PINN) on the Burgers' equation, perform inference and parameter identification.
 
 ## Burgers' equation
 $\frac{\partial u}{\partial t} + \lambda _{1} u \frac{\partial u}{\partial x} -\lambda _{2} u \frac{\partial^2 u}{\partial x^2} = 0$ <br>
