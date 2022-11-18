@@ -12,7 +12,7 @@ Justin Manson: justin.manson@epfl.ch
 Discover and implement Physics Infered Neural Networks (PINN) on the Burgers' equation, and perform parameter identification.
 
 ## Burgers' equation
-$\frac{\partial u}{\partial t} + \lambda _{1} u \frac{\partial u}{\partial^2 x} -\lambda _{2} u \frac{\partial u}{\partial x^2} = 0$ <br>
+$\frac{\partial u}{\partial t} + \lambda _{1} u \frac{\partial u}{\partial x} -\lambda _{2} u \frac{\partial u}{\partial x^2} = 0$ <br>
 https://en.wikipedia.org/wiki/Burgers%27_equation
 
 ## Result
