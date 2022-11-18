@@ -9,9 +9,10 @@ Arthur Lamour: arthur.lamour@epfl.ch
 Justin Manson: justin.manson@epfl.ch
 
 ## Goal
-Discover and implement Physics Infered Neural Netorks (PINN) on the Burgers' equation, and perform parameter identification.
+Discover and implement Physics Infered Neural Networks (PINN) on the Burgers' equation, and perform parameter identification.
 
 ## Burgers' equation
+$a=5$
 https://en.wikipedia.org/wiki/Burgers%27_equation
 
 ## Result
