@@ -12,7 +12,7 @@ Justin Manson: justin.manson@epfl.ch
 Discover and implement Physics Infered Neural Networks (PINN) on the Burgers' equation, and perform parameter identification.
 
 ## Burgers' equation
-$$\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} = f(x)$$
+$\frac{\partial u}{\partial t} + \lambda _{1} u \frac{\partial u}{\partial^2 x} -\lambda _{2} u \frac{\partial u}{\partial x^2} = 0$ <br>
 https://en.wikipedia.org/wiki/Burgers%27_equation
 
 ## Result
@@ -21,7 +21,7 @@ XXX
 ## Files
 - XXX.py
 
-## Ressources
+## References
 - Raissi, Maziar, Paris Perdikaris, and George E. Karniadakis. "[Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](https://www.sciencedirect.com/science/article/pii/S0021999118307125)." Journal of Computational Physics 378 (2019): 686-707.
 
 - Raissi, Maziar, Paris Perdikaris, and George Em Karniadakis. "[Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)." arXiv preprint arXiv:1711.10561 (2017).
