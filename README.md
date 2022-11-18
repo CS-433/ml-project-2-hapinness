@@ -12,7 +12,7 @@ Justin Manson: justin.manson@epfl.ch
 Discover and implement Physics Infered Neural Networks (PINN) on the Burgers' equation, and perform parameter identification.
 
 ## Burgers' equation
-$a=5$
+$$\frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} = f(x)$$
 https://en.wikipedia.org/wiki/Burgers%27_equation
 
 ## Result
