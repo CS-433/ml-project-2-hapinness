@@ -2,7 +2,7 @@
 ## Team name: **haPINNess**
 ## Team members
 
-Thibaud XXX: thibaud.XXX@epfl.ch
+Thibaud Martin: thibaud.martin@epfl.ch
 
 Arthur Lamour: arthur.lamour@epfl.ch
 
