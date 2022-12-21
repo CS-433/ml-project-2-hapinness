@@ -10,9 +10,13 @@ Justin Manson: justin.manson@epfl.ch
 
 ## Goal
 Discover and implement **Physics Informed Neural Networks** (PINN) on various differential equations:
-- Cauchy Problem
-- Viscous Burgers' equation
-- Heat equation
+- Cauchy Problem: 1D inference, importance of randomization, extrapolation performance test
+- Viscous Burgers' equation: 2D inference and identification
+- Heat equation: 2D inferences on different freqencies, 3D inference
+
+Inference: find the solution of a differential equation with initial and/or boundary condtions.
+Identification: knowing the solution, identify the parameters of the differential equation the solution solves. 
+
 
 ## Results
 XXX
