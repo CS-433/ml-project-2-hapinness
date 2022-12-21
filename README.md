@@ -10,13 +10,13 @@ Justin Manson: justin.manson@epfl.ch
 
 ## Goal
 Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on various differential equations:
-- Cauchy Problem: 1D inference on different frequencies, importance of randomization on training data, extrapolation performance test
+- Cauchy Problem: 1D inference with different frequencies, importance of randomized training data, extrapolation performance test
 - Viscous Burgers' equation: 2D inference and identification
-- Heat equation: 2D inferences on different freqencies, 3D inference
+- Heat equation: 2D inferences with different freqencies, 3D inference with different frequencies
 
 **Inference**: find the solution of a differential equation with initial and/or boundary condtions. <br>
 **Identification**: knowing the solution, identify the parameters of the differential equation that the solution solves. 
-
+**Extrapolation**: predicting outside training domain.
 
 ## Results
 XXX
@@ -30,7 +30,7 @@ XXX
 - Heat_2D_inference_f_1.ipynb: This file contains XXX.
 - Heat_2D_inference_f_3.ipynb: This file contains XXX.
 - Heat_2D_inference_f_5.ipynb: This file contains XXX.
-- burgers_shock.mat: This file contains XXX.
+- burgers_shock.mat: contains numerical approximations of the true solution of the viscous burgers' equation.
 
 ## References
 - Raissi, Maziar, Paris Perdikaris, and George E. Karniadakis. "[Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](https://www.sciencedirect.com/science/article/pii/S0021999118307125)." Journal of Computational Physics 378 (2019): 686-707.
