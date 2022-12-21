@@ -14,8 +14,8 @@ Discover and implement **Physics Informed Neural Networks** (PINN) on various di
 - Viscous Burgers' equation: 2D inference and identification
 - Heat equation: 2D inferences on different freqencies, 3D inference
 
-Inference: find the solution of a differential equation with initial and/or boundary condtions.
-Identification: knowing the solution, identify the parameters of the differential equation the solution solves. 
+**Inference**: find the solution of a differential equation with initial and/or boundary condtions. <br>
+**Identification**: knowing the solution, identify the parameters of the differential equation the solution solves. 
 
 
 ## Results
