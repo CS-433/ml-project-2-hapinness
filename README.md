@@ -15,7 +15,7 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 - Heat equation: 2D inferences on different freqencies, 3D inference
 
 **Inference**: find the solution of a differential equation with initial and/or boundary condtions. <br>
-**Identification**: knowing the solution, identify the parameters of the differential equation the solution solves. 
+**Identification**: knowing the solution, identify the parameters of the differential equation that the solution solves. 
 
 
 ## Results
