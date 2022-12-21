@@ -28,7 +28,6 @@ XXX
 - Burgers_identification.ipynb: This file contains XXX.
 - Burgers_inference.ipynb: This file contains XXX.
 - Heat_2D_inference_f_1.ipynb: This file contains XXX.
-- Heat_2D_inference_f_1.ipynb: This file contains XXX.
 - Heat_2D_inference_f_3.ipynb: This file contains XXX.
 - Heat_2D_inference_f_5.ipynb: This file contains XXX.
 - burgers_shock.mat: This file contains XXX.
