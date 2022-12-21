@@ -22,6 +22,8 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 XXX
 
 ## Files
+- 1D_Cauchy_problem_varying_frequency.ipynb: This file contains XXX.
+- 1D_Collocation_points_sampling_method_random_vs_uniform_tested_on_Cauchy_problem.ipynb: This file contains XXX.
 - 1D_extrapolation.ipynb: This file contains XXX.
 - Burgers_identification.ipynb: This file contains XXX.
 - Burgers_inference.ipynb: This file contains XXX.
