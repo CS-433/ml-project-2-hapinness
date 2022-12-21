@@ -9,7 +9,7 @@ Arthur Lamour: arthur.lamour@epfl.ch
 Justin Manson: justin.manson@epfl.ch
 
 ## Goal
-Discover and implement **Physics Informed Neural Networks** (PINN) on various differential equations:
+Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on various differential equations:
 - Cauchy Problem: 1D inference, importance of randomization, extrapolation performance test
 - Viscous Burgers' equation: 2D inference and identification
 - Heat equation: 2D inferences on different freqencies, 3D inference
