@@ -38,12 +38,24 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 * Burgers identification (without noise)
     | **Data** | **Train** | **Test** | 
     |----------|-----|-----|
-    | **$MSE_u$**    | **7.07e-7** |  **7.90e-7** |
-    | **$MSE_f$**    | **1.53e-6** |  **1.90e-4** |
+    | **$MSE_u$**    | **1.90e-7** |  **2.04e-6** |
+    | **$MSE_f$**    | **2.72-7** |  **3.02e-4** |
 
 
     Relative error $\lambda_1 = 0.00103$%
     Relative error $\lambda_2 = 0.77762$%
+
+
+
+* Burgers identification (with 1% uncorrelated noise)
+    | **Data** | **Train** | **Test** | 
+    |----------|-----|-----|
+    | **$MSE_u$**    | **7.07e-7** |  **7.90e-7** |
+    | **$MSE_f$**    | **1.53e-6** |  **1.90e-4** |
+
+
+    Relative error $\lambda_1 = 0.02595186234$%
+    Relative error $\lambda_2 = 0.45801953038$%
 
 
 ## Files
