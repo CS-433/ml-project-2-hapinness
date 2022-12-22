@@ -23,13 +23,29 @@ XXX
 
 ## Files
 - 1D_Cauchy_problem_varying_frequency.ipynb: This file contains a one dimensional implementation of the Cauchy problem. The desired solution contains a parameter \alpha which is tuned to adjust its frequency. The notebook compares PINN accuracy when \alpha is 1, 10 and 20.
-- 1D_Collocation_points_sampling_method_random_vs_uniform_tested_on_Cauchy_problem.ipynb: This file contains XXX.
-- 1D_extrapolation.ipynb: This file contains XXX.
+
+
+- 1D_Collocation_points_sampling_method_random_vs_uniform_tested_on_Cauchy_problem.ipynb: This file contains an implementation of the Cauchy problem for a simple sinusoid solution. The aim of this notebook was to compare two sampling methods for collocation points: uniform and random. We wanted to show the risk associated with using uniformly spaced collocation points if the sampling frequency matches the resonant frequency of the solution.
+
+
+- 1D_extrapolation.ipynb: This file contains an implementation of the Cauchy problem for a simple sinusoid solution. The aim of this notebook was to test the ability of a PINNs to extrapolate a prediction of the solution outside its' training domain (i.e. the domain over which it is given collocation points).
+
+
 - Burgers_identification.ipynb: This file contains XXX.
+
+
 - Burgers_inference.ipynb: This file contains XXX.
-- Heat_2D_inference_f_1.ipynb: This file contains XXX.
-- Heat_2D_inference_f_3.ipynb: This file contains XXX.
-- Heat_2D_inference_f_5.ipynb: This file contains XXX.
+
+
+- Heat_2D_inference_f_1.ipynb: This file contains an implementation of the two dimensional heat equation. The desired solution has a parameter f that can be tuned to change its frequency. This notebook is an implementation with f=1. 
+
+
+- Heat_2D_inference_f_3.ipynb: This file contains an implementation of the two dimensional heat equation. The desired solution has a parameter f that can be tuned to change its frequency. This notebook is an implementation with f=3. 
+
+
+- Heat_2D_inference_f_5.ipynb: This file contains an implementation of the two dimensional heat equation. The desired solution has a parameter f that can be tuned to change its frequency. This notebook is an implementation with f=5. 
+
+
 - burgers_shock.mat: numerical approximations of the true solution of the viscous burgers' equation.
 
 ## References
