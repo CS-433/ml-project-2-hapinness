@@ -94,7 +94,7 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
     | **1.49e-01** | **2** |  **$40^3$** |
 
 
-## External libraries
+## External Python libraries
 - Numpy
 - PyTorch
 - Scipy
