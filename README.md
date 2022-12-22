@@ -19,11 +19,11 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 **Extrapolation**: predicting outside training domain.
 
 ## Result
-- Cauchy inference on multiple frequencies 
-<br>
-| **$\alpha$** | **1** | **10** | **20** |
-|----------|-----|-----|-----|
-| **$L_2$**    | **7.07e-4** |  **4.45e-2** | **3.44e-2** |
+* Cauchy inference on multiple frequencies 
+    * Table: 
+    | **$\alpha$** | **1** | **10** | **20** |
+    |----------|-----|-----|-----|
+    | **$L_2$**    | **7.07e-4** |  **4.45e-2** | **3.44e-2** |
 
 
 ## Files
