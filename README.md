@@ -61,7 +61,27 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
     | **Data** | **Train** | **Test** | 
     |----------|-----|-----|
     | **$MSE_u$**    | **3.35e-7** |  **5.23e-7** |
-    | **$MSE_f$**    | **5.30e-6** |  **5..97e-6** |
+    | **$MSE_f$**    | **5.30e-6** |  **5.97e-6** |
+
+* Heat equation 2D inference $f=1$
+    | **Data** | **Train** | **Test** | 
+    |----------|-----|-----|
+    | **$MSE_u$**    | **1.31e-6** |  **3.12e-7** |
+    | **$MSE_f$**    | **1.15e-5** |  **2.82-6** |
+
+* Heat equation 2D inference $f=3$
+    | **Data** | **Train** | **Test** | 
+    |----------|-----|-----|
+    | **$MSE_u$**    | **1.57e-6** |  **3.85e-7** |
+    | **$MSE_f$**    | **7.83e-5** |  **2.55e-5** |
+
+* Heat equation 2D inference $f=5$
+    | **Data** | **Train** | **Test** | 
+    |----------|-----|-----|
+    | **$MSE_u$**    | **3.96e-1** |  **1.57e-2** |
+    | **$MSE_f$**    | **1.30e-1** |  **1.96e-2** |
+
+
 
 ## Files
 - 1D_Cauchy_problem_varying_frequency.ipynb: one dimensional implementation of a Cauchy problem. The desired solution contains a parameter $\alpha$ which is tuned to adjust its frequency. The notebook compares PINN accuracy when $\alpha$ is equal to 1, 10 and 20.
