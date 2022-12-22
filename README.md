@@ -20,6 +20,7 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 
 ## Results
 - Cauchy 1D ![Cauchy Inference results on multiple frequencies](images/cauchy_freq_var.PNG) ![Cauchy extrapolation test](images/extrapolation_y.png)
+- Burgers 2D ![Inference prediction of the solution](images/burgers_inference_u.PNG) ![Inference time evolution of the nonlinearity](images/burgers_inference_time.PNG) ![Identification prediction of the solution](images/burgers_identification_u.PNG) ![Identification time evolution of the nonlinearity](images/burgers_identification_time.PNG)
 
 ## Files
 - 1D_Cauchy_problem_varying_frequency.ipynb: one dimensional implementation of a Cauchy problem. The desired solution contains a parameter $\alpha$ which is tuned to adjust its frequency. The notebook compares PINN accuracy when $\alpha$ is equal to 1, 10 and 20.
