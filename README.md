@@ -22,22 +22,22 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 * Cauchy inference on multiple frequencies 
     
     | **$\alpha$** | **1** | **10** | **20** |
-    |----------|-----|-----|-----|
+    |:----------:|:-----:|:-----:|:-----:|
     | **$L_2$**    | **7.07e-4** |  **4.45e-2** | **3.44e-2** |
 
 * Cauchy randomization
     | **Sampled** | **Uniform** | **Random** | 
-    |----------|-----|-----|
+    |:----------:|:-----:|:-----:|
     | **$L_2$**    | **1.52** |  **1.18** |
 
 * Cauchy extrapolation
     | **Data** | **Train** | **Test** | 
-    |----------|-----|-----|
+    |:----------:|:-----:|:-----:|
     | **$MSE_y$**    | **6.11e-8** |  **5.13** |
 
 * Burgers identification (without noise)
     | **Data** | **Train** | **Test** | 
-    |----------|-----|-----|
+    |:----------:|:-----:|:-----:|
     | **$MSE_u$**    | **1.90e-7** |  **2.04e-6** |
     | **$MSE_f$**    | **2.72-7** |  **3.02e-4** |
 
@@ -49,7 +49,7 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 
 * Burgers identification (with 1% uncorrelated noise)
     | **Data** | **Train** | **Test** | 
-    |----------|-----|-----|
+    |:----------:|:-----:|:-----:|
     | **$MSE_u$**    | **7.07e-7** |  **7.90e-7** |
     | **$MSE_f$**    | **1.53e-6** |  **1.90e-4** |
 
@@ -59,31 +59,31 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 
 * Burgers inference
     | **Data** | **Train** | **Test** | 
-    |----------|-----|-----|
+    |:----------:|:-----:|:-----:|
     | **$MSE_u$**    | **3.35e-7** |  **5.23e-7** |
     | **$MSE_f$**    | **5.30e-6** |  **5.97e-6** |
 
 * Heat equation 2D inference $f=1$
     | **Data** | **Train** | **Test** | 
-    |----------|-----|-----|
+    |:----------:|:-----:|:-----:|
     | **$MSE_u$**    | **1.31e-6** |  **3.12e-7** |
     | **$MSE_f$**    | **1.15e-5** |  **2.82-6** |
 
 * Heat equation 2D inference $f=3$
     | **Data** | **Train** | **Test** | 
-    |----------|-----|-----|
+    |:----------:|:-----:|:-----:|
     | **$MSE_u$**    | **1.57e-6** |  **3.85e-7** |
     | **$MSE_f$**    | **7.83e-5** |  **2.55e-5** |
 
 * Heat equation 2D inference $f=5$
     | **Data** | **Train** | **Test** | 
-    |----------|-----|-----|
+    |:----------:|:-----:|:-----:|
     | **$MSE_u$**    | **3.96e-1** |  **1.57e-2** |
     | **$MSE_f$**    | **1.30e-1** |  **1.96e-2** |
 
 * Heat equation 3D inference for different frequencies and number of support points
-    | **L_2**  | **$\alpha$** | **Support Points** | 
-    |----------|-----|-----|
+    | **$L_2$**  | **$\alpha$** | **Support Points** | 
+    |:----------:|:-----:|:-----:|
     | **6.06e-04** | **1** |  **0** |
     | **3.20e-04** | **1** |  **10** |
     | **3.18e-04** | **1** |  **20** |
@@ -92,8 +92,6 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
     | **2.43e-01** | **2** |  **10** |
     | **2.73e-01** | **2** |  **20** |
     | **1.49e-01** | **2** |  **40** |
-
-test
 
 
 
