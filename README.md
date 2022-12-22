@@ -81,7 +81,7 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
     | **$MSE_u$**    | **3.96e-1** |  **1.57e-2** |
     | **$MSE_f$**    | **1.30e-1** |  **1.96e-2** |
 
-* Heat equation 3D inference 
+* Heat equation 3D inference for different frequencies and number of support points
     | **L_2** | **\alpha** | **Support Points** | 
     |----------|-----|-----|
     | **6.06e-04**    | **1** |  **0** |
