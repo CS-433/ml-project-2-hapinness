@@ -25,6 +25,11 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
     |----------|-----|-----|-----|
     | **$L_2$**    | **7.07e-4** |  **4.45e-2** | **3.44e-2** |
 
+* Cauchy extrapolation
+    | **Data** | **Train* | **Test** | 
+    |----------|-----|-----|
+    | **$MSE_y$**    | **6.11e-8** |  **5.13** |
+
 
 ## Files
 - 1D_Cauchy_problem_varying_frequency.ipynb: one dimensional implementation of a Cauchy problem. The desired solution contains a parameter $\alpha$ which is tuned to adjust its frequency. The notebook compares PINN accuracy when $\alpha$ is equal to 1, 10 and 20.
