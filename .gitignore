@@ -1,3 +1,7 @@
 .ipynb_checkpoints/*
-*.pdf
+
 old codes/.ipynb_checkpoints/cauchy_problem_eval-checkpoint.ipynb
+articles/PINN_article_1.pdf
+articles/PINN_article_2.pdf
+articles/PINN_article_3.pdf
+.DS_Store
