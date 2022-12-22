@@ -30,7 +30,7 @@ XXX
 - Heat_2D_inference_f_1.ipynb: This file contains XXX.
 - Heat_2D_inference_f_3.ipynb: This file contains XXX.
 - Heat_2D_inference_f_5.ipynb: This file contains XXX.
-- burgers_shock.mat: contains numerical approximations of the true solution of the viscous burgers' equation.
+- burgers_shock.mat: numerical approximations of the true solution of the viscous burgers' equation.
 
 ## References
 - Raissi, Maziar, Paris Perdikaris, and George E. Karniadakis. "[Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations](https://www.sciencedirect.com/science/article/pii/S0021999118307125)." Journal of Computational Physics 378 (2019): 686-707.
