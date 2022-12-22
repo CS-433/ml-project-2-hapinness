@@ -46,6 +46,9 @@ XXX
 - Heat_2D_inference_f_5.ipynb: This file contains an implementation of the two dimensional heat equation. The desired solution has a parameter f that can be tuned to change its frequency. This notebook is an implementation with f=5. 
 
 
+- Heat_3D.ipynb: This file contains an implementation of our custom three dimensional heat equation. The desired solution has a parameter alpha that can be tuned to change its frequency. 
+
+
 - burgers_shock.mat: numerical approximations of the true solution of the viscous burgers' equation.
 
 ## References
