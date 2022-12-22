@@ -22,7 +22,7 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 XXX
 
 ## Files
-- 1D_Cauchy_problem_varying_frequency.ipynb: This file contains XXX.
+- 1D_Cauchy_problem_varying_frequency.ipynb: This file contains a one dimensional implementation of the Cauchy problem. The desired solution contains a parameter \alpha which is tuned to adjust its frequency. The notebook compares PINN accuracy when \alpha is 1, 10 and 20.
 - 1D_Collocation_points_sampling_method_random_vs_uniform_tested_on_Cauchy_problem.ipynb: This file contains XXX.
 - 1D_extrapolation.ipynb: This file contains XXX.
 - Burgers_identification.ipynb: This file contains XXX.
