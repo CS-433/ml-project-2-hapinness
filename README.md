@@ -82,16 +82,16 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
     | **$MSE_f$**    | **1.30e-1** |  **1.96e-2** |
 
 * Heat equation 3D inference for different frequencies and number of support points
-    | **$L_2$**  | **$\alpha$** | **Support Points $10^3$** | 
+    | **$L_2$**  | **$\alpha$** | **Support Points** | 
     |:----------:|:-----:|:-----:|
     | **6.06e-04** | **1** |  **0** |
-    | **3.20e-04** | **1** |  **10** |
-    | **3.18e-04** | **1** |  **20** |
-    | **3.48e-04** | **1** |  **40** |
+    | **3.20e-04** | **1** |  **$10^3$** |
+    | **3.18e-04** | **1** |  **$20^3$** |
+    | **3.48e-04** | **1** |  **$40^3$** |
     | **3.23e-01** | **2** |  **0** |
-    | **2.43e-01** | **2** |  **10** |
-    | **2.73e-01** | **2** |  **20** |
-    | **1.49e-01** | **2** |  **40** |
+    | **2.43e-01** | **2** |  **$10^3$** |
+    | **2.73e-01** | **2** |  **$20^3$** |
+    | **1.49e-01** | **2** |  **$40^3$** |
 
 
 ## External libraries
@@ -127,7 +127,7 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 - Heat_2D_inference_f_5.ipynb: implementation of inference on a two dimensional heat equation. The aim of this notebook was to show that PINN can solve linear partial differential equation, but are limited if the initial condition is too complex (oscillates too much). The initial condition is five heat sources $f=5$.
 
 
-- Heat_3D.ipynb: implementation of our custom three dimensional heat equation. The desired solution has a parameter $\alpha$ that can be tuned to change its frequency. Note that to precisely reproduce the figures of the report, the last cell must be launched 3 times. This is due to an error during the final run.
+- Heat_3D.ipynb: implementation of our custom three dimensional heat equation. The desired solution has a parameter $\alpha$ that can be tuned to change its frequency. 
 
 
 - burgers_shock.mat: numerical approximations of the true solution of the viscous burgers' equation.
