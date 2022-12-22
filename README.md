@@ -57,6 +57,11 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
     Relative error $\lambda_1 = 0.02595186234$%
     Relative error $\lambda_2 = 0.45801953038$%
 
+* Burgers inference
+    | **Data** | **Train** | **Test** | 
+    |----------|-----|-----|
+    | **$MSE_u$**    | **3.35e-7** |  **5.23e-7** |
+    | **$MSE_f$**    | **5.30e-6** |  **5..97e-6** |
 
 ## Files
 - 1D_Cauchy_problem_varying_frequency.ipynb: one dimensional implementation of a Cauchy problem. The desired solution contains a parameter $\alpha$ which is tuned to adjust its frequency. The notebook compares PINN accuracy when $\alpha$ is equal to 1, 10 and 20.
