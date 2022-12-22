@@ -25,6 +25,11 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
     |----------|-----|-----|-----|
     | **$L_2$**    | **7.07e-4** |  **4.45e-2** | **3.44e-2** |
 
+* Cauchy randomization
+    | **Sampled** | **Uniform** | **Random** | 
+    |----------|-----|-----|
+    | **$L_2$**    | **1.52** |  **1.18** |
+    
 * Cauchy extrapolation
     | **Data** | **Train** | **Test** | 
     |----------|-----|-----|
