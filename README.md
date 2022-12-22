@@ -19,34 +19,36 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 **Extrapolation**: predicting outside training domain.
 
 ## Results
-XXX
-
+{::options bg-white}
+- Cauchy 1D ![Cauchy Inference results on multiple frequencies](images/cauchy_freq_var.PNG) ![Cauchy extrapolation test](images/extrapolation_y.png)
+- Burgers 2D ![Inference prediction of the solution](images/burgers_inference_u.PNG) ![Inference time evolution of the nonlinearity](images/burgers_inference_time.PNG) ![Identification prediction of the solution](images/burgers_identification_u.PNG) ![Identification time evolution of the nonlinearity](images/burgers_identification_time.PNG)
+{:/options}
 ## Files
-- 1D_Cauchy_problem_varying_frequency.ipynb: This file contains a one dimensional implementation of the Cauchy problem. The desired solution contains a parameter \alpha which is tuned to adjust its frequency. The notebook compares PINN accuracy when \alpha is 1, 10 and 20.
+- 1D_Cauchy_problem_varying_frequency.ipynb: one dimensional implementation of a Cauchy problem. The desired solution contains a parameter $\alpha$ which is tuned to adjust its frequency. The notebook compares PINN accuracy when $\alpha$ is equal to 1, 10 and 20.
 
 
-- 1D_Collocation_points_sampling_method_random_vs_uniform_tested_on_Cauchy_problem.ipynb: This file contains an implementation of the Cauchy problem for a simple sinusoid solution. The aim of this notebook was to compare two sampling methods for collocation points: uniform and random. We wanted to show the risk associated with using uniformly spaced collocation points if the sampling frequency matches the resonant frequency of the solution.
+- 1D_Collocation_points_sampling_method_random_vs_uniform_tested_on_Cauchy_problem.ipynb: implementation of a Cauchy problem for a sinus as solution. The aim of this notebook was to compare two sampling methods for collocation points: uniform and random. We wanted to show the risk associated with using uniformly spaced collocation points if the sampling frequency matches the resonant frequency of the solution.
 
 
-- 1D_extrapolation.ipynb: This file contains an implementation of the Cauchy problem for a simple sinusoid solution. The aim of this notebook was to test the ability of a PINNs to extrapolate a prediction of the solution outside its' training domain (i.e. the domain over which it is given collocation points).
+- 1D_extrapolation.ipynb: implementation of a Cauchy problem for a cosinus as solution. The aim of this notebook was to test the ability of a PINNs to extrapolate outside its' training domain (i.e. the domain over which it is given collocation points).
 
 
-- Burgers_identification.ipynb: This file contains XXX.
+- Burgers_identification.ipynb: implementation of inference on a viscous burgers' equation. The aim of this notebook was to show that PINN are a very promising alternative to solve nonlinear partial differential equations. Two systemic studies are performed on the network architecture and the training data size.
 
 
-- Burgers_inference.ipynb: This file contains XXX.
+- Burgers_inference.ipynb: implementation of identification on a viscous burgers' equation. The aim of this notebook was to show that PINN can be used to perform parameters identification of a nonlinear partial differential equation when the solution is know. Two systemic studies are performed on the network architecture and the training data size with uncorrelated noise to test the robustness.
 
 
-- Heat_2D_inference_f_1.ipynb: This file contains an implementation of the two dimensional heat equation. The desired solution has a parameter f that can be tuned to change its frequency. This notebook is an implementation with f=1. 
+- Heat_2D_inference_f_1.ipynb: implementation of inference on a two dimensional heat equation. The aim of this notebook was to show that PINN can solve accuratly linear partial differential equation. The initial condition is a single heat source $f=1$.
 
 
-- Heat_2D_inference_f_3.ipynb: This file contains an implementation of the two dimensional heat equation. The desired solution has a parameter f that can be tuned to change its frequency. This notebook is an implementation with f=3. 
+- Heat_2D_inference_f_3.ipynb: implementation of inference on a two dimensional heat equation. The aim of this notebook was to show that PINN can solve accuratly linear partial differential equation, but require more training data to remain accurate if the initial condition is more complex. The initial condition is three heat sources $f=3$.
 
 
-- Heat_2D_inference_f_5.ipynb: This file contains an implementation of the two dimensional heat equation. The desired solution has a parameter f that can be tuned to change its frequency. This notebook is an implementation with f=5. 
+- Heat_2D_inference_f_5.ipynb: implementation of inference on a two dimensional heat equation. The aim of this notebook was to show that PINN can solve linear partial differential equation, but are limited if the initial condition is too complex (oscillates too much). The initial condition is five heat sources $f=5$.
 
 
-- Heat_3D.ipynb: This file contains an implementation of our custom three dimensional heat equation. The desired solution has a parameter alpha that can be tuned to change its frequency. Note that to precisely reproduce the figures of the report, the last cell must be launched 3 times. This is due to an error during the final run.
+- Heat_3D.ipynb: implementation of our custom three dimensional heat equation. The desired solution has a parameter $\alpha$ that can be tuned to change its frequency. Note that to precisely reproduce the figures of the report, the last cell must be launched 3 times. This is due to an error during the final run.
 
 
 - burgers_shock.mat: numerical approximations of the true solution of the viscous burgers' equation.
