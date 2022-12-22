@@ -20,9 +20,9 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
 
 ## Results
 - Cauchy inference various frequencies 
-| $\alpha$ || 1        | 10       | 20       |
-|----------||----------|----------|----------|
-| $L_2$    || 3        | 5        | 6        |
+| **$\alpha$** | **1** | **10** | **20** |
+|----------|-----|-----|-----|
+| **$L_2$**    | **7.07e-4** |  **4.45e-2** | **3.44e-2** |
 ## Files
 - 1D_Cauchy_problem_varying_frequency.ipynb: one dimensional implementation of a Cauchy problem. The desired solution contains a parameter $\alpha$ which is tuned to adjust its frequency. The notebook compares PINN accuracy when $\alpha$ is equal to 1, 10 and 20.
 
