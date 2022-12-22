@@ -94,6 +94,13 @@ Discover and implement **Physics Informed Neural Networks** (PINN) in PyTorch on
     | **1.49e-01** | **2** |  **40** |
 
 
+## External libraries
+- Numpy
+- PyTorch
+- Scipy
+- PyDoe: for latin hypercube sampling
+- mpl_toolkits
+- matplotlib
 
 ## Files
 - 1D_Cauchy_problem_varying_frequency.ipynb: one dimensional implementation of a Cauchy problem. The desired solution contains a parameter $\alpha$ which is tuned to adjust its frequency. The notebook compares PINN accuracy when $\alpha$ is equal to 1, 10 and 20.
